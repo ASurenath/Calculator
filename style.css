@@ -6,8 +6,10 @@ body{
 .calcbody {
     /* margin-top: auto; */
     /* margin-bottom: auto; */
-    /* background-image: url(./images/bg.png); */
-    background-size: 10px;
+    background-image: url(./images/bg.png),linear-gradient(to bottom right,  rgb(16, 16, 43),  rgb(58, 58, 83));
+    /* background-image: linear-gradient(to bottom right,  rgb(47, 47, 67),  rgb(94, 94, 116)); */
+    background-size: 5px,100%;
+    background-blend-mode:color-dodge;
     box-sizing: border-box;
     width: min(450px, 95vw);
     height: calc(1.2 * min(450px, 95vw));
@@ -23,7 +25,7 @@ body{
 
 input[type='text'],
 input[type='text']:focus {
-        font-family: 'Orbitron', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     text-align: right;
     width: 80%;
     border-radius: 10px 10px 20px 20px / 10px 10px 300px 300px;
@@ -31,6 +33,10 @@ input[type='text']:focus {
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.371), 0px -5px 10px rgba(255, 255, 255, 0.354);
     font-size: 2em;
     background-color: rgb(204, 233, 165);
+    /* ----------------- */
+    border-style: solid none none solid;
+    border-width: 3px;
+    border-color: rgba(255, 255, 255, 0.477);
 }
 .btncontainer{
     display: grid;
@@ -94,6 +100,9 @@ button.num,#add{
         /* margin: 3px ; */
         font-size: 10px ;
         /* padding:1px ; */
+    }
+    input[type='text']{
+        font-size: 15px;
     }
 }
 @media((min-width:300px) and (max-width:500px)){
