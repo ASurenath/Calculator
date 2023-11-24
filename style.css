@@ -25,6 +25,7 @@ body{
 
 input[type='text'],
 input[type='text']:focus {
+    color: rgb(85, 85, 85);
     font-family: 'Orbitron', sans-serif;
     text-align: right;
     width: 80%;
