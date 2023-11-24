@@ -109,6 +109,7 @@ button.num,#add{
         /* margin: 3px ; */
         font-size: 10px ;
         /* padding:1px ; */
+        border-width: 2px;
     }
     input[type='text']{
         font-size: 15px;
@@ -118,5 +119,6 @@ button.num,#add{
     button,button.num,#add{
         /* padding:2px ; */
         font-size: 20px ;
+        border-width: 3px;
     }
 }
