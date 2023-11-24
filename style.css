@@ -96,6 +96,14 @@ button.num,#add{
 #ac:hover{
     background-color: rgb(255, 119, 119);
 }
+.split{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    justify-content:space-between ;
+}
+
+
+
 @media(max-width:300px){
     button,button.num,#add{
         /* margin: 3px ; */
